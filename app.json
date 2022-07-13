@@ -1,15 +1,14 @@
 {
   "expo": {
-    "name": "webview2",
-    "slug": "webview2",
-    "version": "1.0.0",
+    "name": "EasyAlbania",
+    "slug": "EasyAlbania",
+    "version": "1.1.8",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#e93151"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -18,9 +17,12 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.easyalbania.app1"
     },
     "android": {
+      "package":"com.easyalbania.app1",
+      "versionCode":3,
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
@@ -29,5 +31,9 @@
     "web": {
       "favicon": "./assets/favicon.png"
     }
+
+    
   }
-}
+   
+  }
+
